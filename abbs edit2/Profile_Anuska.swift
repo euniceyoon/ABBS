@@ -18,7 +18,7 @@ struct Profile: View {
             .padding()
         }
         .sheet(isPresented: $showSheet) {
-            EditProfile_Eunice()
+            EditProfile()
         }
     }
 }
